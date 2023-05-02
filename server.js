@@ -1,6 +1,6 @@
 const express = require("express");
-const { accountRouter } = require("./routers");
-const { useBodyParser, connectDb, listen } = require("./common");
+const { accountRouter } = require("./src/routers");
+const { useBodyParser, connectDb, listen } = require("./src/common");
 const path = require("path");
 
 const app = express();
