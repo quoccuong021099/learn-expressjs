@@ -34,5 +34,5 @@ npm-debug.log
 .env
 
 yarn.lock
-package.lock.json
-package.lock
+.package-lock.json
+.package-lock
