@@ -6,6 +6,7 @@ const AccountSchema = new Schema(
   {
     username: String,
     password: String,
+    role: String,
   },
   {
     collection: "accounts",
